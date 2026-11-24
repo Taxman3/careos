@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /og/
 
-Sitemap: https://careos.me/sitemap.xml
+Sitemap: https://careos.company/sitemap.xml
