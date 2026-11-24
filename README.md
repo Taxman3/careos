@@ -10,6 +10,7 @@ The careOS landing page: plain HTML and CSS, no build step, no scripts, no track
 | `styles.css` | All styling (system fonts, no external requests) |
 | `404.html` | "Page not found" page (GitHub Pages serves it automatically) |
 | `favicon.svg` | Browser tab icon |
+| `img/` | Demo screenshots (patient details blurred) |
 | `og-image.png` | 1200×630 preview shown when the link is shared on WhatsApp, Facebook, LinkedIn or X |
 | `og/og-image.html`, `og/render.ps1` | Source of the preview image; edit the HTML, then run `powershell -File og\render.ps1` |
 | `CNAME` | The custom domain for GitHub Pages |
@@ -26,8 +27,8 @@ Search the files for `TODO`:
 4. **Phone number.** Done: 0707 270 029.
 5. **Email.** The site shows your Gmail for now. Once the domain is set up you can switch to `hello@careos.company`
    with Cloudflare Email Routing (free; it forwards to the Gmail inbox).
-6. **Screenshots (optional).** A commented-out example in "What careOS covers". Use demo screens with sample patients
-   only, saved as `img/*.png` or `.webp`, under about 200 KB each.
+6. **Screenshots.** Done: `img/lab-worklist.png`, `img/patients.png`, `img/billing.png` (demo screens, names and
+   personal details blurred). To replace one, keep it under about 200 KB and blur anything that identifies a patient.
 
 ## Publish on GitHub Pages
 

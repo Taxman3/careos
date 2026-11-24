@@ -128,6 +128,16 @@ h3 { font-family: var(--head); font-size: 1.15rem; line-height: 1.3; margin: 0 0
 .mod { padding: 20px 0; border-bottom: 1px solid var(--line); }
 .mod p { margin: 0; color: var(--muted); font-size: .98rem; }
 
+.shots { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 24px; margin-top: 48px; }
+.shot { margin: 0; }
+.shot.wide-shot { grid-column: 1 / -1; }
+.shot img { display: block; width: 100%; border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 1px 2px rgba(16, 38, 43, .06), 0 8px 24px rgba(16, 38, 43, .08); background: var(--white); }
+.shot figcaption { margin-top: 10px; color: var(--muted); font-size: .95rem; }
+.shot figcaption b { color: var(--ink); }
+.shots-note { margin: 16px 0 0; color: var(--muted); font-size: .88rem; }
+@media (max-width: 760px) { .shots { grid-template-columns: 1fr; } }
+
 .trust { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .points { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 22px 40px; }
 .points li { position: relative; padding-left: 24px; }
