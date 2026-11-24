@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Source of og-image.png (1200x630). Re-render with og\render.ps1 after editing. Not published as a page. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; }
+  body {
+    background: #F1F5F4; color: #10262B; font-family: "Segoe UI Variable Display", "Segoe UI", Arial, sans-serif;
+    display: flex; flex-direction: column; justify-content: space-between; padding: 64px 72px 0; box-sizing: border-box;
+  }
+  .logo { font-weight: 800; font-size: 44px; letter-spacing: -1.5px; }
+  .logo b { color: #0E6560; }
+  h1 { font-size: 72px; line-height: 1.04; letter-spacing: -2.5px; margin: 28px 0 0; max-width: 900px; font-weight: 800; }
+  .strip { background: #0A3F43; margin: 0 -72px; padding: 40px 72px 48px; color: #fff; }
+  ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, 1fr); }
+  li { position: relative; padding-top: 38px; font-size: 26px; font-weight: 600; }
+  li::before { content: ""; position: absolute; top: 10px; left: 0; right: 0; height: 4px; background: #3E7C7C; }
+  li:last-child::before { right: auto; width: 24px; }
+  li::after { content: ""; position: absolute; top: 0; left: 0; width: 24px; height: 24px; border-radius: 50%;
+    background: #F1F5F4; border: 4px solid #0A3F43; box-shadow: 0 0 0 4px #3E7C7C; }
+  li.flag::after { background: #E4572E; box-shadow: 0 0 0 4px #E4572E; }
+</style>
+</head>
+<body>
+  <div>
+    <div class="logo">care<b>OS</b></div>
+    <h1>One system for every department of your hospital.</h1>
+  </div>
+  <div class="strip">
+    <ol>
+      <li>Reception</li><li class="flag">Triage</li><li>Doctor</li><li>Lab</li><li>Pharmacy</li><li>Billing</li>
+    </ol>
+  </div>
+</body>
+</html>
