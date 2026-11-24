@@ -21,7 +21,7 @@ The careOS landing page: plain HTML and CSS, no build step, no scripts, no track
 Search the files for `TODO`:
 
 1. **Domain.** Done: `careos.company` (Name.com, free first year, renews 24 Nov 2027 at about $25).
-2. **Demo address.** `https://demo.careos.company`, twice in `index.html`. Works once the fixed Cloudflare tunnel is set up.
+2. **Demo address.** Done: `https://demo.careos.company` (named Cloudflare tunnel `careos-demo`, run by the demo service).
 3. **WhatsApp number.** Done: 0707 270 029.
 4. **Phone number.** Done: 0707 270 029.
 5. **Email.** The site shows your Gmail for now. Once the domain is set up you can switch to `hello@careos.company`
