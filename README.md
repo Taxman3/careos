@@ -23,10 +23,10 @@ Search the files for `TODO`:
 1. **Domain.** If you did not get `careos.me`, replace it everywhere (`CNAME`, `robots.txt`, `sitemap.xml`, the
    canonical and `og:` / `twitter:` tags in `index.html`, and the email address).
 2. **Demo address.** `https://demo.careos.me`, twice in `index.html`. Works once the fixed Cloudflare tunnel is set up.
-3. **WhatsApp number.** Twice in `index.html`: `https://wa.me/2547XXXXXXXX` (country code, no `+`, no spaces).
-4. **Phone number.** `tel:+2547XXXXXXXX` and the visible text.
-5. **Email.** `hello@careos.me` only works once you set up email for the domain (for example Cloudflare Email
-   Routing, free, which forwards to your own inbox).
+3. **WhatsApp number.** Done: 0707 270 029.
+4. **Phone number.** Done: 0707 270 029.
+5. **Email.** The site shows your Gmail for now. Once the domain is set up you can switch to `hello@careos.me`
+   with Cloudflare Email Routing (free; it forwards to the Gmail inbox).
 6. **Screenshots (optional).** A commented-out example in "What careOS covers". Use demo screens with sample patients
    only, saved as `img/*.png` or `.webp`, under about 200 KB each.
 
