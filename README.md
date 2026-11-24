@@ -27,7 +27,7 @@ Search the files for `TODO`:
 4. **Phone number.** Done: 0707 270 029.
 5. **Email.** The site shows your Gmail for now. Once the domain is set up you can switch to `hello@careos.company`
    with Cloudflare Email Routing (free; it forwards to the Gmail inbox).
-6. **Screenshots.** Done: `img/lab-worklist.png`, `img/patients.png`, `img/billing.png` (demo screens, names and
+6. **Screenshots.** Done: `img/patients.png`, `img/billing.png` (demo screens, names and
    personal details blurred). To replace one, keep it under about 200 KB and blur anything that identifies a patient.
 
 ## Publish on GitHub Pages
