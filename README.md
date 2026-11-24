@@ -1,4 +1,4 @@
-# careos-site
+# careos (site)
 
 The careOS landing page: plain HTML and CSS, no build step, no scripts, no tracking. Hosted on GitHub Pages.
 
@@ -32,10 +32,10 @@ Search the files for `TODO`:
 
 ## Publish on GitHub Pages
 
-1. On GitHub, create a public repository named `careos-site` (account Taxman3).
+1. On GitHub, create a public repository (done: `Taxman3/careos`).
 2. In this folder:
    ```
-   git remote add origin https://github.com/Taxman3/careos-site.git
+   git remote add origin https://github.com/Taxman3/careos.git
    git push -u origin main
    ```
 3. Repository **Settings → Pages**: Source **Deploy from a branch**, branch **main**, folder **/ (root)**. Save.
