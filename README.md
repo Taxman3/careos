@@ -28,6 +28,8 @@ Search the files for `TODO`:
 4. **Phone number.** Done: 0707 270 029.
 5. **Email.** Done: `info@careos.company` (Cloudflare Email Routing forwards it to the owner's inbox; Gmail
    "Send mail as" sends from it). No personal address appears on the site.
+   `support@`, `security@` and `privacy@` forward the same way; `security@` is also in `.well-known/security.txt`
+   (renew its `Expires` date before 27 Nov 2027).
 6. **Screenshots.** Done: `img/patients.png`, `img/billing.png` (demo screens, names and
    personal details blurred). To replace one, keep it under about 200 KB and blur anything that identifies a patient.
 
